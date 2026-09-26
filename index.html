@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Special Birthday 🎂</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body><!-- BACKGROUND -->
+    <div class="stars"></div><!-- FLOATING HEARTS -->
+    <div class="heart h1">💖</div>
+    <div class="heart h2">💕</div>
+    <div class="heart h3">💗</div>
+    <div class="heart h4">💓</div><!-- BALLOONS -->
+    <div class="balloon b1">🎈</div>
+    <div class="balloon b2">🎈</div>
+    <div class="balloon b3">🎈</div>
+    <div class="balloon b4">🎈</div><!-- MAIN CARD -->
+    <div class="birthday-card">
+        <p class="small-title">
+            ✨ A SPECIAL DAY ✨
+        </p>
+
+
+        <!-- PHOTO -->
+
+        <div class="photo-box">
+
+            <img src="DEET.jpeg" alt="Birthday Photo">
+
+        </div>
+
+
+        <!-- CAKE -->
+
+        <div class="cake">
+            🎂
+        </div>
+
+
+        <!-- TITLE -->
+
+        <h1>
+            Happy Birthday
+        </h1>
+
+
+        <h2>
+            🎀 Deet 🎀
+        </h2>
+
+
+        <p class="intro">
+
+            Today is not just another day...🎂
+
+            <br>
+
+            It's the day someone very special was born! 💖
+            <br>
+            A beautiful day to celebrate you!
+
+        </p>
+
+
+        <!-- GIFT -->
+
+        <div class="gift" onclick="openGift()">
+
+            🎁
+
+            <span>
+                Click Me
+            </span>
+
+        </div>
+
+
+        <p class="gift-text">
+            Open your special gift 🎁
+        </p>
+
+
+        <!-- SURPRISE -->
+
+        <div id="surprise">
+
+
+            <div class="divider"></div>
+
+
+            <h3>
+                💌 A Special Message For You
+            </h3>
+
+
+            <p class="message">
+
+                May your birthday bring you endless
+                happiness, beautiful memories and
+                countless reasons to smile.
+
+                <br><br>
+
+                May every new day bring you closer
+                to your dreams.
+
+                <br><br>
+
+                Keep smiling, keep shining and
+                always stay amazing! 🌸✨
+
+            </p>
+
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+
+            <!-- WISH BUTTON -->
+
+            <button onclick="makeWish()" class="wish-btn">
+
+                🕯️ Make a Wish
+
+            </button>
+
+
+        </div>
+
+
+        <!-- WISH RESULT -->
+
+        <div id="wishResult"></div>
+
+
+        <!-- MEMORY SECTION -->
+
+        <section class="memories">
+
+            <h3>
+                🌸 Birthday Memories 🌸
+            </h3>
+
+
+            <div class="memory-container">
+                <div class="memory">
+                    <div class="photo-box">
+                <img src="CAKE.jpeg" alt="Birthday Photo"> 
+</div>
+                    <p>
+                        Beautiful Moments
+                    </p>
+
+                </div>
+
+
+                <div class="memory">
+
+                <div class="photo-box">
+                    <img src="BEST.jpeg" alt="Birthday Photo">
+                </div> 
+
+                    <p>
+                        Endless Smiles
+                    </p>
+
+                </div>
+
+
+                <div class="memory">
+
+                <div class="photo-box">
+                    <img src="P.jpeg" alt="Birthday Photo">
+                </div>
+
+                    <p>
+                        Magical Memories
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- REPLAY -->
+
+        <button onclick="replay()" class="replay">
+
+            🔄 Replay Celebration
+
+        </button>
+
+    </div><!-- CONFETTI -->
+    <div id="confetti"></div><!-- AUDIO --><audio id="birthdayMusic" loop>
+        <source src="birthday.mp3" type="audio/mpeg">
+
+    </audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
