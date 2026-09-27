@@ -136,13 +136,13 @@ body {
 
     width: 110px;
 
-    height: 130px;
+    height: 120px;
 
     margin: 15px auto;
 
     border-radius: 50%;
 
-    padding: 5px;
+    padding: 4px;
 
     background:
         linear-gradient(45deg, #ff70c8, #fff, #9c7cff);
@@ -434,7 +434,7 @@ button {
 
 .memory {
 
-    width: 30%;
+    width: 110%;
 
     padding: 15px 5px;
 
